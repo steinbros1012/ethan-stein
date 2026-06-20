@@ -263,19 +263,19 @@ export default function Page() {
                 </div>
                 <ul className="space-y-3 text-foreground/75 text-sm leading-relaxed">
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Own recurring deliverables on the Operations Finance P&amp;A team, including weekly and monthly Accounts Receivable Aging Reports previously managed by full-time employees</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Cleaning up and reorganizing the Financial Management System (FMS) to improve data accuracy and reporting efficiency across the team</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Developing a comprehensive ChatGPT training module for all incoming ThermoFisher employees, selected as a high-impact project from the internship cohort</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Building advanced Excel proficiency across financial modeling, data cleanup, and cross-functional analysis</span>
                   </li>
                 </ul>
@@ -294,26 +294,30 @@ export default function Page() {
                     <h3 className="font-heading text-2xl md:text-3xl font-medium text-foreground">
                       UNC Wilmington Student Government
                     </h3>
-                    <p className="text-muted mt-1">Treasurer (Incoming) · Deputy Treasurer · Sophomore Class President</p>
+                    <p className="text-muted mt-1">Treasurer (Incoming) · Deputy Treasurer · Sophomore Class President · Honors College Senator</p>
                   </div>
                   <span className="text-sm text-muted/70 shrink-0">2024 – Present</span>
                 </div>
                 <ul className="space-y-3 text-foreground/75 text-sm leading-relaxed">
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Selected to join the Executive Board as Treasurer for junior year, overseeing $600,000+ in annual student fee funding across all registered organizations</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
-                    <span>As Deputy Treasurer, chaired the Appropriations Committee — evaluating $150,000+ in funding requests and directing $100,000+ in approved allocations</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
+                    <span>As Deputy Treasurer, chaired the Appropriations Committee, evaluating $150,000+ in funding requests and directing $100,000+ in approved allocations</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Applied cost-benefit analysis and fiscal responsibility principles to each funding proposal, balancing mission alignment with projected student impact</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
-                    <span>Served simultaneously as Sophomore Class President, representing 3,000+ students and advocating for class-wide interests across SGA committees</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
+                    <span>Served as Sophomore Class President, representing 3,000+ students and advocating for class-wide interests across SGA committees</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
+                    <span>Began in SGA freshman year as Honors College Senator before moving into elected and appointed leadership roles</span>
                   </li>
                 </ul>
               </div>
@@ -347,15 +351,15 @@ export default function Page() {
                 </div>
                 <ul className="space-y-3 text-foreground/75 text-sm leading-relaxed">
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Founded a web design business building premium websites for small businesses, generating $2,000+ in revenue from real clients while maintaining a full academic and leadership schedule</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
-                    <span>Delivered complete sites — design, development, SEO, and hosting — using Next.js, Tailwind CSS, and Vercel for businesses including contractors, event studios, and nonprofits</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
+                    <span>Delivered complete sites (design, development, SEO, and hosting) using Next.js, Tailwind CSS, and Vercel for businesses including contractors, event studios, and nonprofits</span>
                   </li>
                   <li className="flex gap-3">
-                    <span className="text-gold mt-0.5 shrink-0">—</span>
+                    <span className="text-gold/60 mt-0.5 shrink-0">·</span>
                     <span>Built and deployed an AI-powered lead generation pipeline using OpenAI GPT-4 and Supabase to automate client prospecting and outreach</span>
                   </li>
                 </ul>
@@ -378,16 +382,16 @@ export default function Page() {
             <FadeIn delay={0.1}>
               <div className="space-y-5 text-foreground/72 leading-relaxed pt-8 lg:pt-16">
                 <p>
-                  I was a goalie. Most goalies wait for the play to come to them. I spent four years doing the opposite — calling shots, directing the defense, and leading our team to the state championship as captain senior year. That instinct carried into college.
+                  I played lacrosse through high school, finished as a captain, and we won the state championship my senior year. College has been pretty similar in terms of how I approach things.
                 </p>
                 <p>
-                  Freshman year I ran for Sophomore Class President and joined SGA. Sophomore year I became Deputy Treasurer, chairing the Appropriations Committee. Junior year I was selected for the Executive Board as Treasurer. At ThermoFisher this summer, I&apos;m not shadowing — I&apos;m owning deliverables.
+                  Freshman year I joined SGA as an Honors College Senator. Sophomore year I was elected Class President and then became Deputy Treasurer, where I chaired the Appropriations Committee. This coming fall I move into the Treasurer role on the Executive Board, overseeing $600K+ in student fee funding. At ThermoFisher this summer I have been taking on real deliverables, not just observing.
                 </p>
                 <p>
-                  I am drawn to finance because it is where decisions get made. I want to be in the room where capital is allocated, companies are valued, and problems get solved. I am building the skills to get there.
+                  Finance is where I want to build a career. I like working with numbers, I like understanding how businesses actually operate, and I want to be involved in decisions that matter. Investment banking and corporate finance are where I am focused.
                 </p>
                 <p className="text-foreground font-medium">
-                  I&apos;m pursuing summer 2027 internships in investment banking and corporate finance. If you think there&apos;s a fit, I&apos;d like to talk.
+                  I am actively looking for summer 2027 internships. If you think there could be a fit, reach out.
                 </p>
               </div>
             </FadeIn>
