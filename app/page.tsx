@@ -55,7 +55,7 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 // ─── Divider ─────────────────────────────────────────────────────────────────
 function Divider() {
   return (
-    <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-24 md:my-32" />
+    <div className="w-full h-px bg-gradient-to-r from-transparent via-black/10 to-transparent my-24 md:my-32" />
   )
 }
 
@@ -78,7 +78,7 @@ export default function Page() {
         transition={{ duration: 0.5 }}
         className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
           scrolled
-            ? 'bg-background/90 backdrop-blur-md border-b border-white/[0.06]'
+            ? 'bg-background/90 backdrop-blur-md border-b border-black/[0.06]'
             : 'bg-transparent'
         }`}
       >
@@ -112,9 +112,9 @@ export default function Page() {
       {/* ── HERO ──────────────────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(201,168,76,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(201,168,76,0.04)_1px,transparent_1px)] bg-[size:72px_72px] opacity-60 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_80%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(168,120,42,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(168,120,42,0.06)_1px,transparent_1px)] bg-[size:72px_72px] opacity-50 [mask-image:radial-gradient(ellipse_at_center,black_30%,transparent_80%)]" />
         {/* Gold glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[radial-gradient(circle,rgba(201,168,76,0.07),transparent_65%)] blur-3xl pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[radial-gradient(circle,rgba(168,120,42,0.08),transparent_65%)] blur-3xl pointer-events-none" />
 
         <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10 pt-32 pb-24 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -189,7 +189,7 @@ export default function Page() {
                 </a>
                 <a
                   href="mailto:es2631@uncw.edu"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] text-foreground/80 px-6 py-2.5 text-sm font-medium hover:border-gold/30 hover:text-foreground transition-colors"
+                  className="inline-flex items-center gap-2 rounded-full border border-black/12 bg-black/[0.04] text-foreground/80 px-6 py-2.5 text-sm font-medium hover:border-gold/40 hover:text-foreground transition-colors"
                 >
                   <Mail className="h-4 w-4" />
                   es2631@uncw.edu
@@ -247,7 +247,7 @@ export default function Page() {
           <div className="space-y-6">
             {/* ThermoFisher */}
             <FadeIn delay={0.1}>
-              <div className="group rounded-2xl border border-white/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
+              <div className="group rounded-2xl border border-black/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
                     <div className="flex items-center gap-3 mb-1">
@@ -284,7 +284,7 @@ export default function Page() {
 
             {/* SGA */}
             <FadeIn delay={0.15}>
-              <div className="group rounded-2xl border border-white/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
+              <div className="group rounded-2xl border border-black/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
                     <div className="flex items-center gap-3 mb-1">
@@ -325,7 +325,7 @@ export default function Page() {
 
             {/* BuildSiteCo */}
             <FadeIn delay={0.2}>
-              <div className="group rounded-2xl border border-white/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
+              <div className="group rounded-2xl border border-black/[0.07] bg-surface p-7 md:p-9 hover:border-gold/20 transition-colors duration-300">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
                     <div className="flex items-center gap-3 mb-1">
@@ -411,7 +411,7 @@ export default function Page() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <FadeIn delay={0.1}>
-              <div className="rounded-2xl border border-white/[0.07] bg-surface p-7 h-full">
+              <div className="rounded-2xl border border-black/[0.07] bg-surface p-7 h-full">
                 <div className="flex items-start justify-between gap-4 mb-6">
                   <div>
                     <h3 className="font-heading text-2xl font-medium text-foreground">UNC Wilmington</h3>
@@ -437,7 +437,7 @@ export default function Page() {
             </FadeIn>
 
             <FadeIn delay={0.15}>
-              <div className="rounded-2xl border border-white/[0.07] bg-surface p-7 h-full">
+              <div className="rounded-2xl border border-black/[0.07] bg-surface p-7 h-full">
                 <h3 className="font-heading text-xl font-medium text-foreground mb-6">Skills &amp; Tools</h3>
                 <div className="space-y-5">
                   {[
@@ -460,7 +460,7 @@ export default function Page() {
                         {group.items.map((item) => (
                           <span
                             key={item}
-                            className="rounded-full border border-white/8 bg-white/[0.03] px-3 py-1 text-xs text-foreground/65"
+                            className="rounded-full border border-black/8 bg-black/[0.04] px-3 py-1 text-xs text-foreground/65"
                           >
                             {item}
                           </span>
@@ -505,7 +505,7 @@ export default function Page() {
               </a>
               <a
                 href="mailto:es2631@uncw.edu"
-                className="inline-flex items-center gap-3 rounded-2xl border border-white/8 bg-surface px-8 py-5 text-foreground hover:border-white/16 transition-all duration-200 group"
+                className="inline-flex items-center gap-3 rounded-2xl border border-black/8 bg-surface px-8 py-5 text-foreground hover:border-black/16 transition-all duration-200 group"
               >
                 <Mail className="h-5 w-5 text-gold" />
                 <div>
@@ -521,7 +521,7 @@ export default function Page() {
       </div>
 
       {/* ── FOOTER ──────────────────────────────────────────────────────────── */}
-      <footer className="border-t border-white/[0.06] py-8">
+      <footer className="border-t border-black/[0.06] py-8">
         <div className="max-w-6xl mx-auto px-6 md:px-10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <span className="font-heading text-sm text-muted">Ethan Stein</span>
           <span className="text-xs text-muted/50">Finance · UNCW Class of 2028</span>

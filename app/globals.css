@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #0E0F13;
-  --color-surface: #13151A;
-  --color-foreground: #F0EEE9;
-  --color-muted: #8A8782;
-  --color-gold: #C9A84C;
-  --color-border: rgba(255, 255, 255, 0.07);
+  --color-background: #FAF9F6;
+  --color-surface: #F1EFE9;
+  --color-foreground: #17140D;
+  --color-muted: #6B6560;
+  --color-gold: #A8782A;
+  --color-border: rgba(0, 0, 0, 0.08);
 
   --font-heading: var(--font-cormorant), Georgia, serif;
   --font-body: var(--font-inter), system-ui, sans-serif;
@@ -14,19 +14,19 @@
 
 html {
   scroll-behavior: smooth;
-  background: #0E0F13;
-  color: #F0EEE9;
+  background: #FAF9F6;
+  color: #17140D;
 }
 
 body {
   font-family: var(--font-body);
-  background: #0E0F13;
+  background: #FAF9F6;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(201, 168, 76, 0.3);
-  color: #F0EEE9;
+  background: rgba(168, 120, 42, 0.2);
+  color: #17140D;
 }
 
 /* Gold underline animation */
